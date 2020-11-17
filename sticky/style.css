@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+header {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  color:white;
+  background-color: #000000;
+  height: 48px;
+  z-index: 1;
+}
+.sticky {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 48px;
+}
+
+dt:nth-child(2n) {
+  background-color: lightgray;
+}
+
+dt:nth-child(2n+1) {
+  background-color: lightgray;
+}
