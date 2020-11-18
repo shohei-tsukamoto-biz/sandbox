@@ -1,9 +1,9 @@
 .component-list {
-  border: 1px solid #999;
+  border: 1px solid #bbb;
 }
 
 .component-list li + li {
-  border-top: 1px solid #999;
+  border-top: 1px solid #bbb;
 }
 
 .component-list a {
@@ -13,8 +13,7 @@
 }
 
 .component-list a:hover {
-  color: #fff;
-  background: #009;
+  background: #f9f9f9;
 }
 
 .component-list .title {
@@ -23,7 +22,7 @@
 }
 
 .component-list .description {
-  border-left: 1px solid #999;
+  border-left: 1px solid #bbb;
   padding-left: 16px;
   margin-left: 16px;
 }
