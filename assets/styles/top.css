@@ -1,0 +1,29 @@
+.component-list {
+  border: 1px solid #999;
+}
+
+.component-list li + li {
+  border-top: 1px solid #999;
+}
+
+.component-list a {
+  display: flex;
+  height: 40px;
+  padding: 8px 16px;
+}
+
+.component-list a:hover {
+  color: #fff;
+  background: #009;
+}
+
+.component-list .title {
+  width: 80px;
+  flex-shrink: 0;
+}
+
+.component-list .description {
+  border-left: 1px solid #999;
+  padding-left: 16px;
+  margin-left: 16px;
+}
