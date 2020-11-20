@@ -1,3 +1,5 @@
+var GTAG_INPUT_ONCHANGE = 'CustomSubmit';
+
 $(function() {
   var $input = $("#test-input");
   var $output = $("#output");
@@ -27,6 +29,7 @@ $(function() {
     changelog += '<p class="bg-red">change: ' + $input.val() +'</p>';
     clearTimeout(timer);
     timer = setTimeout(() => renderlog(), "200");
+    dataLayerSubmit(GTAG_INPUT_ONCHANGE);
   });
 
   $input.on('input', function(e) {
