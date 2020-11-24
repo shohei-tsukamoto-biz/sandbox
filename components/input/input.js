@@ -1,4 +1,4 @@
-var GTAG_INPUT_ONCHANGE = 'CustomSubmit';
+var GTAG_INPUT_ONCHANGE = 'InputEvent';
 
 $(function() {
   var $input = $("#test-input");
